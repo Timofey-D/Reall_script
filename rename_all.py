@@ -12,7 +12,6 @@ def rename_directories(list_new_name, list_old_name):
             list_new_name.append(new_name)
 
 
-
 def rename_files(list_new_name, list_old_name):
     for name in os.listdir(os.getcwd()):
         if not os.path.isdir(name) and name[0].isupper():
